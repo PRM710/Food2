@@ -9,7 +9,7 @@ function Chicken() {
     if (isMobile) {
       window.location.href = 'https://wa.me/919833001027';
     } else {
-      window.open('https://www.instagram.com/its_d_kitchen/', '_blank');
+      window.open('https://www.instagram.com/direct/t/17847224382319784', '_blank');
     }
   };
 
