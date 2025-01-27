@@ -1,0 +1,23 @@
+.logo--header .logo {
+    max-width: 200px;
+    margin: 0 auto;
+
+   }
+
+   .logo--header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   }
+
+   @media screen and (max-width: 767px) {
+    .logo--header .logo {
+        max-width: 200px;
+        margin: 0 auto;
+       }
+    .logo{
+        position: relative;
+        bottom: 50px;
+    }
+   }

@@ -1,0 +1,40 @@
+.menu img{
+    width: 60px;
+    top: 90%;
+    position: absolute;
+    right: 49.5%;
+}
+
+.menu h4{
+    font-weight: normal;
+    width: 100%;
+    top: 87%;
+    position: absolute;
+    text-align: center;
+    margin-left: -20px;
+    align-items: center;
+    color: black;
+}
+
+@media screen and (max-width:767px) {
+
+    .menu{
+        position: relative;
+        top: 460px;
+        left: 20px;
+    }
+
+    .menu h4{
+        left: 15%;
+        margin-top: 1.5%;
+    }
+
+    .menu img{
+        width:40px;
+        top: 90%;
+        position: absolute;
+        right: 49.5%;
+        left: 80%;
+    }
+    
+}
